@@ -666,6 +666,11 @@
         line-height: 2.3rem;
 
     }
+    .first-img {
+        position: absolute;
+        display: block;
+        right: 9%;
+    }
     .text__quality {
         max-width: 50.6rem;
     }
@@ -752,6 +757,7 @@
 
     }
     
+    
 }
 
 @media (max-width: 1684px){
@@ -763,6 +769,11 @@
         top: -10%;
         padding-right: 23rem;
         max-width: 12.9rem;
+    }
+    .first-img {
+        position: absolute;
+        display: block;
+        right: 0;
     }
     
     
@@ -1129,7 +1140,11 @@
         max-width: 72.1rem;
         
     }
-    
+    .menu__products {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
     //шапка
     .header__container {
         
@@ -2188,4 +2203,14 @@
     }
      
 
+}
+@media (max-width: 1684px){
+    
+    .first-img {
+        position: absolute;
+        display: block;
+        right: 0;
+    }
+    
+    
 }
