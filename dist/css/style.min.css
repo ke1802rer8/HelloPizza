@@ -1801,8 +1801,7 @@ body {
     max-width: 12.9rem;
   }
   .first-img {
-    position: absolute;
-    display: block;
+    
     right: 0;
   }
 }
@@ -3019,8 +3018,7 @@ body {
 }
 @media (max-width: 1684px) {
   .first-img {
-    position: absolute;
-    display: block;
+    
     right: 0;
   }
 }
